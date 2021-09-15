@@ -1,0 +1,57 @@
+.side-menu{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &-item{
+        text-transform: uppercase;
+        color: #fff;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    &-arrows{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        &-item{
+
+            &:nth-child(2){
+                transform: scaleX(-1);
+            }
+            img{
+                margin: 0 10px;
+                margin-top: 30px;
+                width: 15px;
+                height: 25px;
+                background-size: cover;
+            }
+        }
+    }
+
+    &-reviews{
+        
+        &-carousel{
+            
+        }
+    }
+
+}
+
+
+/// React classes
+
+.sideMenu-selected{
+    border: 2px solid #6CBACF;
+    padding: 10px;
+}

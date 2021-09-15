@@ -1,0 +1,174 @@
+.homePage{
+    
+    &-header{
+        text-transform: uppercase;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 90px;
+        line-height: 133px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.015em;
+        color: #FFFFFF;
+        text-align: left;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+
+        &-btn{
+            z-index: 300;
+            padding-top: 75vh;
+            margin-left: 10.5%;
+            position: relative;
+        }
+        &-down{
+            position: absolute;
+            z-index: 1000000;
+            transform: rotate(-90deg);
+            left: 0;
+            right: 0;
+            bottom: 10px;
+            cursor: pointer;
+            transition: ease-in-out 0.3s;
+            img{
+                width: 20px;
+                height: 35px;
+            }
+            &:hover{
+                bottom: 5px;
+                
+            }
+        }
+    }
+
+
+    &-background{
+    
+        width: 100%;
+        max-height: 950px;
+        position: absolute;
+        right: 0;
+        overflow-x: hidden;
+        img{     
+            margin-left: 32.5%;
+            transform: scale(2.5);
+            // transform-origin: 0 0;
+            // transform: translate(32%, 0%);
+            width: 100%;
+            background-size: cover;
+            transform: scaleX(-1);
+        }
+    }
+    &-body{
+        
+        &-header{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 65px;
+            line-height: 79px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.015em;
+            color: #FFFFFF;
+            margin-top: 100px;
+            margin-left: 62px;
+            margin-bottom: 10vh;
+        }
+    
+        &-sideMenu{
+            margin-right: 50px;
+        } 
+    
+        &-wrapper{
+            
+            display: flex;
+            flex-direction: row;
+
+            &-cars{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                
+                &-item{
+                    margin: 0 55px;
+                }
+            }
+        }
+    }
+
+    &-reviews{
+
+        &-carousel{
+            height: 200px;
+            margin-left: 62px;
+            &-body{
+                margin-top: 20px;
+                text-align: left;
+                color: #fff;
+                display: flex !important;
+                flex-direction: row;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                display: flex;
+                align-items: center;
+                letter-spacing: -0.015em;
+                
+                &-wrapper{
+                    
+                }
+
+                &-comment{
+                    width: 90% !important;
+                    margin-left: 20px;
+
+                }
+                &-name{
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    text-align: left;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 17px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: -0.015em;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+
+/// arrows 
+
+.home-page-carousel-wrapper-arrows{
+
+}
+
+.carousel-fullState-arrow{
+    width: 15px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding-right: 45px;
+}
+.carousel-fullState-arrow-forward{
+    position: absolute;
+    transform: rotate(180deg);
+}
+.carousel-fullState-arrow-backward{
+    position: absolute;
+}

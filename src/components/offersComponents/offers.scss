@@ -1,0 +1,58 @@
+.offers{
+
+
+    &-header{
+        &-wrapper{
+            margin-top: 200px;
+        }
+
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+
+        &-item{
+            &-name{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 44px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.015em;
+    
+                color: #FFFFFF;
+            }
+
+            &-price{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 44px;
+                display: flex;
+                align-items: center;
+                text-align: right;
+                letter-spacing: -0.015em;
+                margin-right: -200px;
+                color: #FFFFFF;
+            }
+        }
+       
+    }
+
+
+    &-description{
+        width: 100%;
+        height: 205px;
+
+        background-color: #C4C4C4;
+
+        
+    }
+}
